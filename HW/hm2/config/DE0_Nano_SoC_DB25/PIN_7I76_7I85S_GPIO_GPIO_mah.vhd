@@ -158,9 +158,9 @@ package PIN_7I76_7I85S_GPIO_GPIO_mah is
         IOPortTag & x"00" & TPPWMTag & TPPWMAOutPin,                -- I/O 36   GPIO_1 14   PIN 2
 	IOPortTag & x"00" & TPPWMTag & TPPWMBOutPin,                -- I/O 37   GPIO_1 15   PIN 15
 	IOPortTag & x"00" & TPPWMTag & TPPWMCOutPin,                -- I/O 38   GPIO_1 12   PIN 3
-        IOPortTag & x"00" & NullTag & x"00",                        -- I/O 39   GPIO_1 13   PIN 16
-        IOPortTag & x"00" & NullTag & x"00",                        -- I/O 40   GPIO_1 10   PIN 4
-        IOPortTag & x"00" & NullTag & x"00",                        -- I/O 41   GPIO_1 11   PIN 17
+        IOPortTag & x"00" & TPPWMTag & NTPPWMAOutPin,               -- I/O 39   GPIO_1 13   PIN 16
+        IOPortTag & x"00" & TPPWMTag & NTPPWMBOutPin,               -- I/O 40   GPIO_1 10   PIN 4
+        IOPortTag & x"00" & TPPWMTag & NTPPWMCOutPin,               -- I/O 41   GPIO_1 11   PIN 17
         IOPortTag & x"00" & NullTag & x"00",                        -- I/O 42   GPIO_1 08   PIN 5
         IOPortTag & x"00" & NullTag & x"00",                        -- I/O 43   GPIO_1 09   PIN 6
         IOPortTag & x"00" & NullTag & x"00",                        -- I/O 44   GPIO_1 06   PIN 7
