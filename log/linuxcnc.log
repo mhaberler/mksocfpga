@@ -1,0 +1,1512 @@
+Jul 22 08:14:11 mksocfpga msgd:0: startup pid=1457 flavor=rt-preempt rtlevel=5 usrlevel=5 halsize=524288 shm=Posix gcc=4.9.2 version=unknown
+Jul 22 08:14:11 mksocfpga msgd:0: ØMQ=4.0.5 czmq=3.0.2 protobuf=2.6.1 libwebsockets=<no version symbol>
+Jul 22 08:14:11 mksocfpga msgd:0: configured: sha=9d5034a
+Jul 22 08:14:11 mksocfpga msgd:0: built:      Jul 19 2016 22:30:29 sha=9d5034a
+Jul 22 08:14:11 mksocfpga msgd:0: register_stuff: actual hostname as announced by avahi='mksocfpga.local'
+Jul 22 08:14:11 mksocfpga msgd:0: zeroconf: registering: 'Log service on mksocfpga.local pid 1457'
+Jul 22 08:14:11 mksocfpga msgd:0: rtapi_app:1463:user rtapi:0: cannot create core dumps - /proc/sys/fs/suid_dumpable contains 0
+Jul 22 08:14:11 mksocfpga msgd:0: rtapi_app:1463:user you might have to run 'echo 1 > /proc/sys/fs/suid_dumpable' as root to enable rtapi_app core dumps
+Jul 22 08:14:11 mksocfpga msgd:0: rtapi:1463:rt RTAPI:0  rt-preempt unknown init
+Jul 22 08:14:11 mksocfpga msgd:0: rtapi_app:1463:user rtapi: loaded from rtapi.so
+Jul 22 08:14:11 mksocfpga msgd:0: rtapi:1463:rt rtapi_app_main:196 HAL: initializing RT hal_lib support
+Jul 22 08:14:11 mksocfpga msgd:0: hal_lib:1463:rt hal_xinit:68 HAL: initializing component 'hal_lib' type=4 arg1=0 arg2=0/0x0
+Jul 22 08:14:11 mksocfpga msgd:0: hal_lib:1463:rt hal_export_xfunctfv:70 HAL: exporting function 'newinst' type 2
+Jul 22 08:14:11 mksocfpga msgd:0: hal_lib:1463:rt hal_export_xfunctfv:70 HAL: exporting function 'delinst' type 2
+Jul 22 08:14:11 mksocfpga msgd:0: hal_lib:1463:rt hal_xinit:239 HAL: hal_lib initialization complete
+Jul 22 08:14:11 mksocfpga msgd:0: hal_lib:1463:rt rtapi_app_main:200 HAL: RT hal_lib support initialized rc=0
+Jul 22 08:14:11 mksocfpga msgd:0: rtapi_app:1463:user hal_lib: loaded from hal_lib.so
+Jul 22 08:14:11 mksocfpga msgd:0: rtapi_app:1463:user accepting commands at ipc:///tmp/0.rtapi.a42c8c6b-4025-4f83-ba28-dad21114744a
+Jul 22 08:14:11 mksocfpga msgd:0: rtapi_app:1463:user rtapi_app:0 ready flavor=rt-preempt gcc=4.9.2 git=unknown
+Jul 22 08:14:12 mksocfpga msgd:0: rtapi_app:1463:user pid=1463 flavor=rt-preempt gcc=4.9.2 git=unknown
+Jul 22 08:14:12 mksocfpga msgd:0: ulapi:1464:user hal_xinit:239 HAL: hal_lib1464 initialization complete
+Jul 22 08:14:12 mksocfpga msgd:0: hal_lib:1464:user hal_xinit:246 HAL: legacy component 'halcmd1464' id=70 initialized
+Jul 22 08:14:12 mksocfpga msgd:0: rtapi_app:1463:user pid=1463 flavor=rt-preempt gcc=4.9.2 git=unknown
+Jul 22 08:14:12 mksocfpga msgd:0: hal_lib:1464:user hal_exit:258 HAL: removing component 70
+Jul 22 08:14:12 mksocfpga msgd:0: hal_lib:1464:user hal_exit:258 HAL: removing component 69
+Jul 22 08:14:12 mksocfpga msgd:0: hal_lib:1464:user ULAPI:0 unknown exit
+Jul 22 08:14:12 mksocfpga msgd:0: rtapi_app:1463:user pid=1463 flavor=rt-preempt gcc=4.9.2 git=unknown
+Jul 22 08:14:12 mksocfpga msgd:0: ulapi:1469:user hal_xinit:239 HAL: hal_lib1469 initialization complete
+Jul 22 08:14:12 mksocfpga msgd:0: hal_lib:1469:user hal_xinit:246 HAL: legacy component 'halcmd1469' id=72 initialized
+Jul 22 08:14:12 mksocfpga msgd:0: zeroconf: registered 'Log service on mksocfpga.local pid 1457' _machinekit._tcp 0 TXT "uuid=a42c8c6b-4025-4f83-ba28-dad21114744a" "instance=45695256-4fe4-11e6-b92d-425cf34d0173" "service=log" "dsn=ipc:///tmp/0.log.a42c8c6b-4025-4f83-ba28-dad21114744a"
+Jul 22 08:14:25 mksocfpga msgd:0: hal_lib:1463:rt hm2: loading Mesa HostMot2 driver version 0.15
+Jul 22 08:14:25 mksocfpga msgd:0: hal_lib:1463:rt hal_xinit:68 HAL: initializing component 'hostmot2' type=1 arg1=0 arg2=0/0x0
+Jul 22 08:14:25 mksocfpga msgd:0: hal_lib:1463:rt hal_xinit:246 HAL: legacy component 'hostmot2' id=73 initialized
+Jul 22 08:14:25 mksocfpga msgd:0: rtapi_app:1463:user hostmot2: loaded from hostmot2.so
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2_soc_ol: loading Mesa AnyIO HostMot2 socfpga overlay driver version 0.9
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hal_xinit:68 HAL: initializing component 'hm2_soc_ol' type=1 arg1=0 arg2=0/0x0
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hal_xinit:246 HAL: legacy component 'hm2_soc_ol' id=74 initialized
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo: parsing config string "firmware=socfpga/dtbo/DE0_Nano_SoC_DB25.7I76_7I85S_GPIO_GPIO_mah.dtbo num_stepgens=1 num_encoders=1 num_pwmgens=2 num_3pwmgens=1"
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo: final config:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     num_encoders=1
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     num_absencs=-1
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     num_resolvers=-1
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     num_pwmgens=2
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     num_3pwmgens=1
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     sserial_port_0=00000000
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     num_stepgens=1
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     num_bspis=-1
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     num_uarts=-1
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     num_pktuarts=-1
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     enable_raw=0
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/foo:     firmware=socfpga/dtbo/DE0_Nano_SoC_DB25.7I76_7I85S_GPIO_GPIO_mah.dtbo
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2_soc_ol: soc_reset
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2_soc_ol: soc_program_fpga
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2_soc_ol: FPGA overlay status: applied
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2_soc_ol: hm2 cookie check OK, board name='TERADE0N'
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.io_error'
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: protobuf raw size=169, aligned to 172
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000000: 0a 07 61 33 39 62 30 39 34 12 0e 61 6c 74 65 72  ..a39b094..alter
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000010: 61 20 73 6f 63 66 70 67 61 1a 0f 0a 08 47 50 49  a socfpga....GPI
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000020: 4f 30 2e 50 32 15 11 00 00 00 1a 0f 0a 08 47 50  O0.P2.........GP
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000030: 49 4f 30 2e 50 33 15 11 00 00 00 1a 0f 0a 08 47  IO0.P3.........G
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000040: 50 49 4f 31 2e 50 32 15 11 00 00 00 1a 0f 0a 08  PIO1.P2.........
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000050: 47 50 49 4f 31 2e 50 33 15 11 00 00 00 25 04 00  GPIO1.P3.....%..
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000060: 00 00 2a 10 54 65 72 61 73 69 63 20 44 45 30 2d  ..*.Terasic DE0-
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000070: 4e 61 6e 6f 32 33 68 74 74 70 73 3a 2f 2f 6a 65  Nano23https://je
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000080: 6e 6b 69 6e 73 2e 6d 61 63 68 69 6e 65 6b 69 74  nkins.machinekit
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:00000090: 2e 69 6f 2f 6a 6f 62 2f 6d 6b 73 6f 63 66 70 67  .io/job/mksocfpg
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt fwid msg at 0x42ab8:000000a0: 61 2d 6d 61 68 2f 31 39 2f                       a-mah/19/
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: board_name = 'Terasic DE0-Nano'
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: build_sha = 'a39b094'
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: fpga_part_number = 'altera socfpga'
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: num_leds = 4
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: comment = https://jenkins.machinekit.io/job/mksocfpga-mah/19/
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: connector 0 name = 'GPIO0.P2'
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: connector 0 pins = 17
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: connector 1 name = 'GPIO0.P3'
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: connector 1 pins = 17
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: connector 2 name = 'GPIO1.P2'
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: connector 2 pins = 17
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: connector 3 name = 'GPIO1.P3'
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: connector 3 pins = 17
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: IDRom:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IDRom Type: 0x00000003
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Offset to Modules: 0x00000040
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Offset to Pin Description: 0x000001C0
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Board Name: TERADE0N
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     FPGA Size: 9
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     FPGA Pins: 144
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Port Width: 17
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Ports: 4
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Width: 68
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Low: 50000000 Hz (50000 KHz, 50 MHz)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock High: 200000000 Hz (200000 KHz, 200 MHz)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instance Stride 0: 0x00000004
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instance Stride 1: 0x00000040
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride 0: 0x00000100
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride 1: 0x00000100
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: 68 HM2 Pin Descriptors:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 0:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Direction, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 1:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Step, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 2:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x01
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Direction, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 3:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x01
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Step, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 4:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x02
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Direction, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 5:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x02
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Step, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 6:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x03
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Direction, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 7:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x03
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Step, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 8:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x04
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Direction, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 9:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x04
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Step, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 10:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0xC1 (Smart Serial Interface)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (TxData0, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 11:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0xC1 (Smart Serial Interface)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x01 (RxData0, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 12:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0xC1 (Smart Serial Interface)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (TxData1, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 13:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0xC1 (Smart Serial Interface)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x02 (RxData1, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 14:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0C (Muxed Encoder)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x01 (Muxed A, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 15:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0C (Muxed Encoder)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x02 (Muxed B, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 16:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0C (Muxed Encoder)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x03 (Muxed Index, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 17:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0xC1 (Smart Serial Interface)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x03 (RxData2, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 18:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0xC1 (Smart Serial Interface)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x83 (TxData2, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 19:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x08
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Step, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 20:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x08
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Direction, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 21:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x07
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Step, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 22:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x07
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Direction, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 23:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x06
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Step, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 24:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x06
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Direction, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 25:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x05
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Step, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 26:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x05 (StepGen)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x05
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Direction, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 27:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0D (Muxed Encoder Select)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Mux Select 0, Output)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 28:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0C (Muxed Encoder)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x01
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x01 (Muxed A, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 29:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0C (Muxed Encoder)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x01
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x02 (Muxed B, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 30:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0C (Muxed Encoder)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x01
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x03 (Muxed Index, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 31:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0C (Muxed Encoder)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x02
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x01 (Muxed A, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 32:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0C (Muxed Encoder)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x02
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x02 (Muxed B, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 33:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x0C (Muxed Encoder)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x02
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x03 (Muxed Index, Input)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 34:
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x13 (ThreePhasePWM)
+Jul 22 08:15:19 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x08 (Fault, Input)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 35:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x13 (ThreePhasePWM)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x87 (Enable, Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 36:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x13 (ThreePhasePWM)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (PWM A, Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 37:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x13 (ThreePhasePWM)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (PWM B, Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 38:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x13 (ThreePhasePWM)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x83 (PWM C, Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 39:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x13 (ThreePhasePWM)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x84 (PWM /A, Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 40:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x13 (ThreePhasePWM)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x85 (PWM /B, Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 41:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x13 (ThreePhasePWM)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x86 (PWM /C, Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 42:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 43:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 44:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 45:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 46:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 47:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 48:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 49:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 50:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 51:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x06 (PWMGen)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Out0 (PWM or Up), Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 52:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x06 (PWMGen)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x83 (Not-Enable, Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 53:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x06 (PWMGen)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Out1 (Dir or Down), Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 54:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x06 (PWMGen)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x01
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x81 (Out0 (PWM or Up), Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 55:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x06 (PWMGen)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x01
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x83 (Not-Enable, Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 56:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Tag: 0x06 (PWMGen)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Unit: 0x01
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Secondary Pin: 0x82 (Out1 (Dir or Down), Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 57:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 58:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 59:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 60:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 61:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 62:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 63:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 64:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 65:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 66:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pin 67:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Primary Tag: 0x03 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 0 at 0x0440:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 26 (Hostmot2 DPLL)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x7000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 7
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x00000000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 1 at 0x044C:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 2 (Watchdog)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x0C00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 3
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x00000000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 2 at 0x0458:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 3 (IOPort)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 4
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x1000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 5
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x0000001F
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 3 at 0x0464:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 12 (Muxed Encoder)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 3
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 8
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x3500
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 5
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x00000003
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 4 at 0x0470:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 13 (Muxed Encoder Select)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x0000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x00000000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 5 at 0x047C:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 193 (Smart Serial Interface)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 3
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x5A00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 6
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000040
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x0000003C
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 6 at 0x0488:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 5 (StepGen)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 2
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 13
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x2000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 10
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x000001FF
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 7 at 0x0494:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 128 (LED)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x0200
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x00000000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 8 at 0x04A0:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 248 (Firmware ID)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0xF800
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x00000000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 9 at 0x04AC:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 6 (PWMGen)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 2
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x4000
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 5
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x00000003
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Module Descriptor 10 at 0x04B8:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     General Function Tag: 19 (ThreePhasePWM)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Version: 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Clock Tag: 1 (50.000 MHz)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Instances: 2
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Base Address: 0x4500
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Num Registers: 4
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     Register Stride: 0x00000100
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Instance Stride: 0x00000004
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     -- Multiple Registers: 0x00000003
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 2: 4x IOPort v0: accepted, using 4
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.01.timer-us'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.02.timer-us'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.03.timer-us'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.04.timer-us'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.base-freq-khz'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.phase-error-us'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.time-const'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.plimit'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.ddsize'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.dpll.prescale'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 0: 1x Hostmot2 DPLL v0: accepted, using 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.watchdog.has_bit'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.watchdog.timeout_ns'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_export_xfunctfv:70 HAL: exporting function 'hm2_de0n.0.pet_watchdog' type 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.pet_watchdog.time'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.pet_watchdog.tmax'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.pet_watchdog.tmax-inc'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 1: 1x Watchdog v0: accepted, using 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 2: 4x IOPort v0: ignored
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.muxed-sample-frequency'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.rawcounts'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.rawlatch'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.count'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.count-latched'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.position'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.position-latched'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.velocity'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.reset'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.index-enable'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.latch-enable'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.latch-polarity'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.quad-error'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.quad-error-enable'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.input-a'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.input-b'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.encoder.00.input-index'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.encoder.00.scale'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.encoder.00.index-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.encoder.00.index-mask'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.encoder.00.index-mask-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.encoder.00.counter-mode'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.encoder.00.filter'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.encoder.00.vel-timeout'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 3: 8x Muxed Encoder v3: accepted, using 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 4: 1x Muxed Encoder Select v0: ignored
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: sserial_num_instances = 3
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: sec unit = 0, sec pin = 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: sec unit = 0, sec pin = 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: sec unit = 0, sec pin = 2
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: sec unit = 0, sec pin = 2
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: sec unit = 0, sec pin = 3
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: sec unit = 0, sec pin = 3
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Smart Serial Firmware Version 43
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Start-mode = f01
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Start-mode = f03
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Start-mode = f07
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Inst 0 Chan 0 User0 = 10000373
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Inst 0 Chan 0 User1 = 36374937
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Inst 0 Chan 0 User2 = a584a53e
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Inst 0 Chan 1 User0 = 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Inst 0 Chan 1 User1 = 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Inst 0 Chan 1 User2 = 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Inst 0 Chan 2 User0 = 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Inst 0 Chan 2 User1 = 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Inst 0 Chan 2 User2 = 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.sserial.port-0.run'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.sserial.port-0.port_state'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.sserial.port-0.fault-count'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.sserial.port-0.fault-inc'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.sserial.port-0.fault-dec'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.sserial.port-0.fault-lim'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Instance 0, channel 0 / 0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: reg_cs_addr = 5c00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: reg_0_addr = 5d00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: reg_1_addr = 5e00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: reg_2_addr = 5f00
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: BoardSerial 10000373
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: BoardName hm2_de0n.0.7i76.0.0
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt Board hm2_de0n.0.7i76.0.0 Hardware Mode 0 = standard
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt Board hm2_de0n.0.7i76.0.0 Software Mode 0 = io_spin
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt Board hm2_de0n.0.7i76.0.0 Software Mode 1 = io_ana_spin
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt Board hm2_de0n.0.7i76.0.0 Software Mode 2 = io_enc_ana_spin_fv
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.swrevision'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.nvbaudrate'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.nvunitnumber'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.nvwatchdogtimeout'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.nvencmode0'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.nvencmode1'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-00'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-00-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-01'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-01-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-02'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-02-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-03'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-03-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-04'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-04-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-05'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-05-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-06'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-06-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-07'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-07-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-08'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-08-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-09'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-09-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-10'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-10-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-11'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-11-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-12'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-12-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-13'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-13-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-14'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-14-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-15'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-15-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-16'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-16-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-17'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-17-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-18'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-18-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-19'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-19-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-20'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-20-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-21'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-21-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-22'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-22-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-23'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-23-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-24'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-24-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-25'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-25-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-26'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-26-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-27'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-27-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-28'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-28-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-29'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-29-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-30'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-30-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-31'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.input-31-not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-00'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-00-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-01'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-01-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-02'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-02-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-03'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-03-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-04'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-04-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-05'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-05-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-06'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-06-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-07'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-07-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-08'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-08-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-09'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-09-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-10'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-10-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-11'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-11-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-12'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-12-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-13'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-13-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-14'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-14-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.output-15'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.output-15-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.spinout'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.spinout-scalemax'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.spinout-maxlim'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.spinout-minlim'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.spinena'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.spinena-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.7i76.0.0.spindir'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.7i76.0.0.spindir-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: hm2_de0n.0.7i76.0.0 read-bits = 32, write-bits = 48
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Start-mode = 901
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Start-mode = 903
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Start-mode = 907
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Smart Serial Firmware Version 43
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Smart Serial Firmware Version 43
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 5: 3x Smart Serial Interface v0: accepted, using 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.timer-number'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.position-cmd'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.velocity-cmd'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.velocity-fb'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.position-fb'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.counts'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.enable'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.control-type'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.dbg_pos_minus_prev_'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.dbg_ff_vel'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.dbg_s_to_match'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.dbg_vel_error'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.dbg_err_at_match'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.stepgen.00.dbg_step_rate'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.position-scale'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.maxvel'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.maxaccel'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.steplen'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.stepspace'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.dirsetup'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.dirhold'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.step_type'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.table-data-0'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.table-data-1'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.table-data-2'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.stepgen.00.table-data-3'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 6: 13x StepGen v2: accepted, using 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.led.CR01'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.led.CR02'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.led.CR03'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.led.CR04'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 7: 1x LED v0: accepted, using 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.pwmgen.pwm_frequency'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.pwmgen.pdm_frequency'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.pwmgen.00.value'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.pwmgen.00.enable'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.pwmgen.00.scale'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.pwmgen.00.output-type'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.pwmgen.01.value'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.pwmgen.01.enable'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.pwmgen.01.scale'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.pwmgen.01.output-type'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 9: 2x PWMGen v0: accepted, using 2
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.3pwmgen.frequency'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.3pwmgen.00.A-value'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.3pwmgen.00.B-value'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.3pwmgen.00.C-value'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.3pwmgen.00.enable'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.3pwmgen.00.fault'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.3pwmgen.00.scale'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.3pwmgen.00.deadtime'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.3pwmgen.00.fault-invert'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.3pwmgen.00.sample-time'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: MD 10: 2x ThreePhasePWM v0: accepted, using 1
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: allocating Translation RAM buffers (reading 60 bytes, writing 48 bytes)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: buffer address 0x3e01c
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Translation RAM read buffer:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x1000, size=16, buffer=0x36560
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x7600, size=4, buffer=0x36570
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x7300, size=4, buffer=0x36574
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x0d00, size=4, buffer=0x36578
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x3800, size=4, buffer=0x3657c
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x3500, size=4, buffer=0x36580
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x3600, size=4, buffer=0x36584
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x5a00, size=4, buffer=0x36588
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x5b00, size=4, buffer=0x3658c
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x5c00, size=4, buffer=0x36590
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x5d00, size=4, buffer=0x36594
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x2100, size=4, buffer=0x36598
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Translation RAM write buffer:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x1000, size=16, buffer=0x42b48
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x0e00, size=4, buffer=0x42b58
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x5a00, size=4, buffer=0x42b5c
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x5d00, size=4, buffer=0x42b60
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x5e00, size=4, buffer=0x42b64
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x2000, size=4, buffer=0x42b68
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x4000, size=8, buffer=0x42b6c
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     addr=0x4500, size=4, buffer=0x42b74
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.000.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.000.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.000.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.000.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.001.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.001.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.001.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.001.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.002.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.002.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.002.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.002.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.002.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.002.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.003.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.003.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.003.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.003.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.003.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.003.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.004.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.004.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.004.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.004.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.004.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.004.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.005.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.005.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.005.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.005.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.005.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.005.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.006.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.006.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.006.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.006.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.006.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.006.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.007.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.007.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.007.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.007.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.007.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.007.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.008.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.008.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.008.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.008.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.008.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.008.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.009.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.009.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.009.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.009.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.009.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.009.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.010.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.010.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.010.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.010.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.011.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.011.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.012.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.012.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.012.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.012.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.012.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.012.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.013.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.013.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.013.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.013.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.013.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.013.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.014.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.014.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.015.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.015.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.016.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.016.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.017.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.017.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.017.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.017.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.017.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.017.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.018.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.018.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.018.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.018.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.018.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.018.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.019.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.019.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.019.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.019.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.019.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.019.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.020.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.020.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.020.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.020.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.020.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.020.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.021.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.021.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.021.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.021.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.021.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.021.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.022.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.022.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.022.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.022.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.022.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.022.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.023.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.023.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.023.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.023.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.023.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.023.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.024.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.024.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.024.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.024.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.024.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.024.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.025.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.025.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.025.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.025.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.025.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.025.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.026.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.026.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.026.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.026.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.026.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.026.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.027.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.027.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.027.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.027.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.028.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.028.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.028.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.028.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.028.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.028.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.029.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.029.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.029.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.029.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.029.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.029.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.030.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.030.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.030.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.030.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.030.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.030.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.031.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.031.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.031.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.031.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.031.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.031.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.032.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.032.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.032.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.032.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.032.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.032.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.033.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.033.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.033.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.033.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.033.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.033.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.034.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.034.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.035.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.035.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.035.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.035.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.036.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.036.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.036.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.036.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.037.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.037.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.037.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.037.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.038.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.038.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.038.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.038.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.039.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.039.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.039.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.039.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.040.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.040.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.040.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.040.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.041.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.041.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.041.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.041.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.042.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.042.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.042.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.042.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.042.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.042.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.043.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.043.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.043.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.043.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.043.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.043.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.044.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.044.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.044.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.044.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.044.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.044.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.045.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.045.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.045.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.045.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.045.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.045.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.046.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.046.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.046.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.046.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.046.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.046.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.047.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.047.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.047.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.047.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.047.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.047.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.048.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.048.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.048.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.048.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.048.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.048.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.049.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.049.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.049.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.049.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.049.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.049.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.050.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.050.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.050.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.050.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.050.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.050.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.051.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.051.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.051.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.051.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.052.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.052.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.052.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.052.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.053.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.053.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.053.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.053.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.054.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.054.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.054.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.054.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.055.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.055.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.055.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.055.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.056.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.056.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.056.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.056.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.057.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.057.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.057.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.057.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.057.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.057.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.058.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.058.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.058.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.058.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.058.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.058.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.059.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.059.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.059.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.059.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.059.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.059.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.060.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.060.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.060.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.060.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.060.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.060.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.061.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.061.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.061.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.061.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.061.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.061.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.062.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.062.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.062.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.062.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.062.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.062.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.063.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.063.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.063.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.063.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.063.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.063.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.064.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.064.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.064.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.064.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.064.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.064.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.065.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.065.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.065.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.065.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.065.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.065.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.066.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.066.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.066.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.066.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.066.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.066.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.067.in'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.067.in_not'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.067.invert_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.067.is_opendrain'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.gpio.067.out'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.gpio.067.is_output'
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Setting encoder QFilterRate to 4
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: 68 I/O Pins used:
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 000 (GPIO0.P2-01): StepGen #0, pin Direction (Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 001 (GPIO0.P2-14): StepGen #0, pin Step (Output)
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 002 (GPIO0.P2-02): IOPort
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 003 (GPIO0.P2-15): IOPort
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 004 (GPIO0.P2-03): IOPort
+Jul 22 08:15:20 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 005 (GPIO0.P2-16): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 006 (GPIO0.P2-04): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 007 (GPIO0.P2-17): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 008 (GPIO0.P2-05): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 009 (GPIO0.P2-06): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 010 (GPIO0.P2-07): Smart Serial Interface #0, pin TxData0 (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 011 (GPIO0.P2-08): Smart Serial Interface #0, pin RxData0 (Input)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 012 (GPIO0.P2-09): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 013 (GPIO0.P2-10): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 014 (GPIO0.P2-11): Muxed Encoder #0, pin Muxed A (Input)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 015 (GPIO0.P2-12): Muxed Encoder #0, pin Muxed B (Input)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 016 (GPIO0.P2-13): Muxed Encoder #0, pin Muxed Index (Input)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 017 (GPIO0.P3-01): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 018 (GPIO0.P3-14): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 019 (GPIO0.P3-02): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 020 (GPIO0.P3-15): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 021 (GPIO0.P3-03): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 022 (GPIO0.P3-16): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 023 (GPIO0.P3-04): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 024 (GPIO0.P3-17): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 025 (GPIO0.P3-05): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 026 (GPIO0.P3-06): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 027 (GPIO0.P3-07): Muxed Encoder Select #0, pin Mux Select 0 (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 028 (GPIO0.P3-08): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 029 (GPIO0.P3-09): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 030 (GPIO0.P3-10): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 031 (GPIO0.P3-11): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 032 (GPIO0.P3-12): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 033 (GPIO0.P3-13): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 034 (GPIO1.P2-01): ThreePhasePWM #0, pin Fault (Input)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 035 (GPIO1.P2-14): ThreePhasePWM #0, pin Enable (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 036 (GPIO1.P2-02): ThreePhasePWM #0, pin PWM A (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 037 (GPIO1.P2-15): ThreePhasePWM #0, pin PWM B (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 038 (GPIO1.P2-03): ThreePhasePWM #0, pin PWM C (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 039 (GPIO1.P2-16): ThreePhasePWM #0, pin PWM /A (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 040 (GPIO1.P2-04): ThreePhasePWM #0, pin PWM /B (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 041 (GPIO1.P2-17): ThreePhasePWM #0, pin PWM /C (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 042 (GPIO1.P2-05): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 043 (GPIO1.P2-06): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 044 (GPIO1.P2-07): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 045 (GPIO1.P2-08): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 046 (GPIO1.P2-09): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 047 (GPIO1.P2-10): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 048 (GPIO1.P2-11): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 049 (GPIO1.P2-12): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 050 (GPIO1.P2-13): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 051 (GPIO1.P3-01): PWMGen #0, pin Out0 (PWM or Up) (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 052 (GPIO1.P3-14): PWMGen #0, pin Not-Enable (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 053 (GPIO1.P3-02): PWMGen #0, pin Out1 (Dir or Down) (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 054 (GPIO1.P3-15): PWMGen #1, pin Out0 (PWM or Up) (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 055 (GPIO1.P3-03): PWMGen #1, pin Not-Enable (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 056 (GPIO1.P3-16): PWMGen #1, pin Out1 (Dir or Down) (Output)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 057 (GPIO1.P3-04): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 058 (GPIO1.P3-17): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 059 (GPIO1.P3-05): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 060 (GPIO1.P3-06): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 061 (GPIO1.P3-07): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 062 (GPIO1.P3-08): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 063 (GPIO1.P3-09): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 064 (GPIO1.P3-10): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 065 (GPIO1.P3-11): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 066 (GPIO1.P3-12): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     IO Pin 067 (GPIO1.P3-13): IOPort
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: HM2 Modules used:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Encoders: 1
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     clock_frequency: 50000000 Hz (50.000 MHz)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     version: 3
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     counter_addr: 0x3500
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     latch_control_addr: 0x3600
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     timestamp_div_addr: 0x3700
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     timestamp_count_addr: 0x3800
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     filter_rate_addr: 0x3900
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     timestamp_div: 0x0030
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 0:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         hw:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             counter = 0000.0000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             latch/control = 0000.0800
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             prev_control = 0000.0800
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Absolute Encoder (Generic): 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: resolvers: 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: PWMGen: 2
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     clock_frequency: 50000000 Hz (50.000 MHz)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     version: 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pwmgen_master_rate_dds: 0x0000D1B7 (53687)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pdmgen_master_rate_dds: 0x0000001A (26)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     enable: 0x00000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pwm_value_addr: 0x4000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pwm_mode_addr: 0x4100
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pwmgen_master_rate_dds_addr: 0x4200
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pdmgen_master_rate_dds_addr: 0x4300
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     enable_addr: 0x4400
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 0:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         hw:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             pwm_val = 0x00000000 (0)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             pwm_mode = 0x00000022
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 1:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         hw:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             pwm_val = 0x00000000 (0)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             pwm_mode = 0x00000022
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: 3-phase PWMGen: 1
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     clock_frequency: 50000000 Hz (50.000 MHz)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     version: 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pwmgen_master_rate_dds: 0x0000D1B7 (53687)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pwmgen_master_rate_dds_addr: 0x4800
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 0:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         hw:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pwm_value_addr: 0x4500
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             pwm_val:0x00000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             enable: 0x00000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:              setup: 0x01FF0066
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: SSerial: 1
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:   version 43
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 0:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Command Addr 0x5a00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         Data Addr    0x5b00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         port 0 device hm2_de0n.0.7i76.0.0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:              Parameters:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x20
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x01
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 1.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x0808
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = input
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x10
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x01
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x80
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 1.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x0800
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = output
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x10
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x02
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x80
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 100.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x0840
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = percent
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = spinout
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x08
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x07
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x80
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 1.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x0842
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = spinena
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x08
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x07
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x80
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 1.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x0843
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = spindir
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:              Globals:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x10
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x02
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x80
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 4
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x095c
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = swrevision
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x10
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x40
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 4
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x0000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = nvbaudrate
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x20
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 4
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x0078
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = nvunitnumber
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x10
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 4
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x0038
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = nvwatchdogtimeout
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x10
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 4
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x003a
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = nvencmode0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    RecordType = 0xa0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataLength = 0x10
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataType = 0x04
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    DataDir = 0x00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMax 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmMin 0.00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    SizeOf ParmMin 4
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    ParmAddr = 0x003c
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    UnitString = none
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                    NameString = nvencmode1
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:              Modes:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                RecordType = 0xb0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                ModeIndex = 0x00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                ModeType = 0x00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                Unused = 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                NameString = standard
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                RecordType = 0xb0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                ModeIndex = 0x00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                ModeType = 0x01
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                Unused = 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:                NameString = io_spin
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: StepGen: 1
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     clock_frequency: 50000000 Hz (50.000 MHz)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     version: 2
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     step_rate_addr: 0x2000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     accumulator_addr: 0x2100
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     mode_addr: 0x2200
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     dir_setup_time_addr: 0x2300
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     dir_hold_time_addr: 0x2400
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pulse_width_addr: 0x2500
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     pulse_idle_width_addr: 0x2600
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     table_sequence_data_setup_addr: 0x2700
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     table_sequence_length_addr: 0x2800
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     master_dds_addr: 0x2900
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 0:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         enable = 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         hw:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             step_rate = 0x00000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             accumulator = 0x00000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             mode = 0x00000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             dir_setup_time = 0x00003FFF (327660 ns)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             dir_hold_time = 0x00003FFF (327660 ns)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             pulse_width = 0x00003FFF (327660 ns)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:             pulse_idle_width = 0x00003FFF (327660 ns)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Buffered SPI: 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: IO Ports: 4
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     clock_frequency: 50000000 Hz (50.000 MHz)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     version: 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     data_addr: 0x1000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     ddr_addr: 0x1100
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     alt_source_addr: 0x1200
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     open_drain_addr: 0x1300
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     output_invert_addr: 0x1400
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 0:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         data_read = 0x003FFC
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         data_write = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         ddr = 0x000403
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         alt_source = 0x01CC03
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         open_drain = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         output_invert = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 1:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         data_read = 0x01FFFF
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         data_write = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         ddr = 0x000400
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         alt_source = 0x000400
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         open_drain = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         output_invert = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 2:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         data_read = 0x01FF03
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         data_write = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         ddr = 0x0000FE
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         alt_source = 0x0000FF
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         open_drain = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         output_invert = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 3:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         data_read = 0x01FFD2
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         data_write = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         ddr = 0x00003F
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         alt_source = 0x00003F
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         open_drain = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         output_invert = 0x000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: Watchdog: 1
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     clock_frequency: 50000000 Hz (50.000 MHz)
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     version: 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     timer_addr: 0x0C00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     status_addr: 0x0D00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     reset_addr: 0x0E00
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:     instance 0:
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         param timeout_ns = 5000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         pin has_bit = 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0:         reg timer = 0x80000000
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_export_xfunctfv:70 HAL: exporting function 'hm2_de0n.0.read' type 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.read.time'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.read.tmax'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.read.tmax-inc'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_export_xfunctfv:70 HAL: exporting function 'hm2_de0n.0.write' type 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.write.time'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.write.tmax'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.write.tmax-inc'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_export_xfunctfv:70 HAL: exporting function 'hm2_de0n.0.read_gpio' type 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.read_gpio.time'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.read_gpio.tmax'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.read_gpio.tmax-inc'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_export_xfunctfv:70 HAL: exporting function 'hm2_de0n.0.write_gpio' type 0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_pin_new:121 HAL: creating pin 'hm2_de0n.0.write_gpio.time'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.write_gpio.tmax'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hal_param_new:135 HAL: creating parameter 'hm2_de0n.0.write_gpio.tmax-inc'
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: registered
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2_soc_ol: initialized AnyIO hm2_soc_ol_board hm2-socfpg0 on /dev/uio0
+Jul 22 08:15:21 mksocfpga msgd:0: hal_lib:1463:rt hm2_soc_ol: timer1 argument 0 - waitirq function not exported
+Jul 22 08:15:21 mksocfpga msgd:0: rtapi_app:1463:user hm2_soc_ol: loaded from hm2_soc_ol.so
+Jul 22 08:16:39 mksocfpga msgd:0: hal_lib:1469:user hal_stop_threads:331 HAL: threads stopped
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1469:user hal_exit:258 HAL: removing component 72
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1469:user hal_exit:258 HAL: removing component 71
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1469:user ULAPI:0 unknown exit
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app:1463:user pid=1463 flavor=rt-preempt gcc=4.9.2 git=unknown
+Jul 22 08:16:41 mksocfpga msgd:0: ulapi:1476:user hal_xinit:239 HAL: hal_lib1476 initialization complete
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1476:user hal_xinit:246 HAL: legacy component 'halcmd1476' id=653 initialized
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1476:user hal_stop_threads:331 HAL: threads stopped
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1476:user hal_exit:258 HAL: removing component 653
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1476:user hal_exit:258 HAL: removing component 652
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1476:user ULAPI:0 unknown exit
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app:1463:user pid=1463 flavor=rt-preempt gcc=4.9.2 git=unknown
+Jul 22 08:16:41 mksocfpga msgd:0: ulapi:1498:user hal_xinit:239 HAL: hal_lib1498 initialization complete
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1498:user hal_xinit:246 HAL: legacy component 'halcmd1498' id=655 initialized
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1498:user hal_stop_threads:331 HAL: threads stopped
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1498:user hal_exit:258 HAL: removing component 655
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1498:user hal_exit:258 HAL: removing component 654
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1498:user ULAPI:0 unknown exit
+Jul 22 08:16:41 mksocfpga rtapi:0: unload: 'hostmot2' not loaded
+Jul 22 08:16:41 mksocfpga rtapi:0: unload: 'hm2_soc_ol' not loaded
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app:1463:user pid=1463 flavor=rt-preempt gcc=4.9.2 git=unknown
+Jul 22 08:16:41 mksocfpga msgd:0: ulapi:1501:user hal_xinit:239 HAL: hal_lib1501 initialization complete
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1501:user hal_xinit:246 HAL: legacy component 'halcmd1501' id=657 initialized
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hal_exit_threads:309 HAL: all threads exited
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: requested watchdog timeout is out of range, setting it to max: 4294967295 ns
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hm2/hm2_de0n.0: unregistered
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hm2_soc_ol: UIO driver unloaded
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hal_exit:258 HAL: removing component 74
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app:1463:user  'hm2_soc_ol' unloaded
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hm2: unloading
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hal_exit:258 HAL: removing component 73
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app:1463:user  'hostmot2' unloaded
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1501:user hal_exit:258 HAL: removing component 657
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1501:user hal_exit:258 HAL: removing component 656
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1501:user ULAPI:0 unknown exit
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app:1463:user pid=1463 flavor=rt-preempt gcc=4.9.2 git=unknown
+Jul 22 08:16:41 mksocfpga msgd:0: ulapi:1507:user hal_xinit:239 HAL: hal_lib1507 initialization complete
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1507:user hal_xinit:246 HAL: legacy component 'halcmd1507' id=659 initialized
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hal_exit_threads:309 HAL: all threads exited
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt rtapi_app_exit:206 HAL: removing RT hal_lib support
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hal_exit_threads:309 HAL: all threads exited
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt hal_exit:258 HAL: removing component 66
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt rtapi_app_exit:210 HAL: RT hal_lib support removed successfully
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app:1463:user  'hal_lib' unloaded
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1463:rt RTAPI:0 exit
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app:1463:user  'rtapi' unloaded
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app:1463:user exiting mainloop (by remote command)
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1507:user hal_exit:258 HAL: removing component 659
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1507:user hal_exit:258 HAL: removing component 658
+Jul 22 08:16:41 mksocfpga msgd:0: hal_lib:1507:user ULAPI:0 unknown exit
+Jul 22 08:16:41 mksocfpga msgd:0: rtapi_app exit detected - scheduled shutdown
+Jul 22 08:16:43 mksocfpga msgd:0: msgd shutting down
+Jul 22 08:16:43 mksocfpga msgd:0: zeroconf: unregistering 'Log service on mksocfpga.local pid 1457'
+Jul 22 08:16:43 mksocfpga msgd:0: log buffer hwm: 26% (1423 msgs, 139511 bytes out of 524288)
+Jul 22 08:16:43 mksocfpga msgd:0: normal shutdown - global segment detached

@@ -1,0 +1,586 @@
+machinekit@mksocfpga:/lib/firmware/socfpga/dtbo$ halrun -I
+msgd:0 stopped
+rtapi:0 stopped
+halcmd: loadrt hostmot2 debug_idrom=1 debug_module_descriptors=1 debug_modules=1 debug_pin_descriptors=1
+<stdin>:1: Realtime module 'hostmot2' loaded
+halcmd: loadrt hm2_soc_ol config="firmware=socfpga/dtbo/DE0_Nano_SoC_DB25.7I76_7I85S_GPIO_GPIO_mah.dtbo num_stepgens=1 num_encoders=1 num_pwmgens=2 num_3pwmgens=1"
+<stdin>:2: Realtime module 'hm2_soc_ol' loaded
+halcmd: show param
+Parameters:
+ Comp    Inst Type   Dir         Value  Name
+    74         float RW           5000  hm2_de0n.0.3pwmgen.00.deadtime
+    74         bit   RW          FALSE  hm2_de0n.0.3pwmgen.00.fault-invert
+    74         float RW            0.5  hm2_de0n.0.3pwmgen.00.sample-time
+    74         float RW              1  hm2_de0n.0.3pwmgen.00.scale
+    74         u32   RW     0x00004E20  hm2_de0n.0.3pwmgen.frequency
+    74         u32   RO     0x00000009  hm2_de0n.0.7i76.0.0.nvbaudrate
+    74         u32   RO     0x00000000  hm2_de0n.0.7i76.0.0.nvencmode0
+    74         u32   RO     0x00000000  hm2_de0n.0.7i76.0.0.nvencmode1
+    74         u32   RO     0x10000373  hm2_de0n.0.7i76.0.0.nvunitnumber
+    74         u32   RO     0x00000032  hm2_de0n.0.7i76.0.0.nvwatchdogtimeout
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-00-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-01-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-02-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-03-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-04-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-05-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-06-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-07-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-08-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-09-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-10-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-11-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-12-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-13-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-14-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.output-15-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.spindir-invert
+    74         bit   RW          FALSE  hm2_de0n.0.7i76.0.0.spinena-invert
+    74         float RW            100  hm2_de0n.0.7i76.0.0.spinout-maxlim
+    74         float RW              0  hm2_de0n.0.7i76.0.0.spinout-minlim
+    74         float RW            100  hm2_de0n.0.7i76.0.0.spinout-scalemax
+    74         u32   RO     0x0000000E  hm2_de0n.0.7i76.0.0.swrevision
+    74         bit   RW          FALSE  hm2_de0n.0.encoder.00.counter-mode
+    74         bit   RW           TRUE  hm2_de0n.0.encoder.00.filter
+    74         bit   RW          FALSE  hm2_de0n.0.encoder.00.index-invert
+    74         bit   RW          FALSE  hm2_de0n.0.encoder.00.index-mask
+    74         bit   RW          FALSE  hm2_de0n.0.encoder.00.index-mask-invert
+    74         float RW              1  hm2_de0n.0.encoder.00.scale
+    74         float RW            0.5  hm2_de0n.0.encoder.00.vel-timeout
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.000.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.000.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.001.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.001.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.002.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.002.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.002.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.003.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.003.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.003.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.004.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.004.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.004.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.005.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.005.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.005.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.006.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.006.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.006.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.007.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.007.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.007.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.008.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.008.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.008.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.009.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.009.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.009.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.010.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.010.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.012.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.012.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.012.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.013.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.013.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.013.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.017.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.017.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.017.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.018.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.018.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.018.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.019.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.019.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.019.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.020.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.020.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.020.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.021.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.021.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.021.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.022.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.022.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.022.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.023.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.023.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.023.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.024.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.024.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.024.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.025.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.025.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.025.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.026.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.026.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.026.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.027.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.027.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.028.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.028.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.028.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.029.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.029.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.029.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.030.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.030.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.030.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.031.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.031.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.031.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.032.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.032.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.032.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.033.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.033.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.033.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.035.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.035.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.036.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.036.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.037.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.037.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.038.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.038.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.039.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.039.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.040.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.040.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.041.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.041.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.042.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.042.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.042.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.043.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.043.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.043.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.044.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.044.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.044.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.045.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.045.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.045.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.046.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.046.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.046.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.047.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.047.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.047.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.048.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.048.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.048.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.049.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.049.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.049.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.050.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.050.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.050.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.051.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.051.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.052.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.052.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.053.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.053.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.054.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.054.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.055.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.055.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.056.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.056.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.057.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.057.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.057.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.058.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.058.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.058.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.059.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.059.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.059.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.060.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.060.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.060.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.061.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.061.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.061.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.062.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.062.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.062.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.063.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.063.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.063.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.064.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.064.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.064.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.065.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.065.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.065.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.066.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.066.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.066.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.067.invert_output
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.067.is_opendrain
+    74         bit   RW          FALSE  hm2_de0n.0.gpio.067.is_output
+    74         bit   RW          FALSE  hm2_de0n.0.io_error
+    74         s32   RW              0  hm2_de0n.0.pet_watchdog.tmax
+    74         bit   RO          FALSE  hm2_de0n.0.pet_watchdog.tmax-inc
+    74         s32   RW              1  hm2_de0n.0.pwmgen.00.output-type
+    74         float RW              1  hm2_de0n.0.pwmgen.00.scale
+    74         s32   RW              1  hm2_de0n.0.pwmgen.01.output-type
+    74         float RW              1  hm2_de0n.0.pwmgen.01.scale
+    74         u32   RW     0x00004E20  hm2_de0n.0.pwmgen.pdm_frequency
+    74         u32   RW     0x00004E20  hm2_de0n.0.pwmgen.pwm_frequency
+    74         s32   RW              0  hm2_de0n.0.read.tmax
+    74         bit   RO          FALSE  hm2_de0n.0.read.tmax-inc
+    74         s32   RW              0  hm2_de0n.0.read_gpio.tmax
+    74         bit   RO          FALSE  hm2_de0n.0.read_gpio.tmax-inc
+    74         u32   RW     0x00000001  hm2_de0n.0.sserial.port-0.fault-dec
+    74         u32   RW     0x0000000A  hm2_de0n.0.sserial.port-0.fault-inc
+    74         u32   RW     0x000000C8  hm2_de0n.0.sserial.port-0.fault-lim
+    74         u32   RW     0x0004FFEC  hm2_de0n.0.stepgen.00.dirhold
+    74         u32   RW     0x0004FFEC  hm2_de0n.0.stepgen.00.dirsetup
+    74         float RW              1  hm2_de0n.0.stepgen.00.maxaccel
+    74         float RW              0  hm2_de0n.0.stepgen.00.maxvel
+    74         float RW              1  hm2_de0n.0.stepgen.00.position-scale
+    74         u32   RW     0x00000000  hm2_de0n.0.stepgen.00.step_type
+    74         u32   RW     0x0004FFEC  hm2_de0n.0.stepgen.00.steplen
+    74         u32   RW     0x0004FFEC  hm2_de0n.0.stepgen.00.stepspace
+    74         u32   RW     0x00000000  hm2_de0n.0.stepgen.00.table-data-0
+    74         u32   RW     0x00000000  hm2_de0n.0.stepgen.00.table-data-1
+    74         u32   RW     0x00000000  hm2_de0n.0.stepgen.00.table-data-2
+    74         u32   RW     0x00000000  hm2_de0n.0.stepgen.00.table-data-3
+    74         u32   RW     0x004C4B40  hm2_de0n.0.watchdog.timeout_ns
+    74         s32   RW              0  hm2_de0n.0.write.tmax
+    74         bit   RO          FALSE  hm2_de0n.0.write.tmax-inc
+    74         s32   RW              0  hm2_de0n.0.write_gpio.tmax
+    74         bit   RO          FALSE  hm2_de0n.0.write_gpio.tmax-inc
+
+halcmd: show pin
+Component Pins:
+  Comp   Inst Type  Dir         Value  Name                             Epsilon         Flags
+    74        float IN              0  hm2_de0n.0.3pwmgen.00.A-value 	0.000010
+    74        float IN              0  hm2_de0n.0.3pwmgen.00.B-value 	0.000010
+    74        float IN              0  hm2_de0n.0.3pwmgen.00.C-value 	0.000010
+    74        bit   IN          FALSE  hm2_de0n.0.3pwmgen.00.enable  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.3pwmgen.00.fault   		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-00  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-00-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-01  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-01-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-02  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-02-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-03  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-03-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-04  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-04-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-05  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-05-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-06  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-06-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-07  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-07-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-08  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-08-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-09  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-09-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-10  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-10-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-11  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-11-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-12  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-12-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-13  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-13-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-14  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-14-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-15  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-15-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-16  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-16-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-17  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-17-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-18  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-18-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-19  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-19-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-20  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-20-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-21  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-21-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-22  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-22-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-23  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-23-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-24  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-24-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-25  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-25-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-26  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-26-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-27  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-27-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-28  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-28-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-29  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-29-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-30  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-30-n		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-31  		0
+    74        bit   OUT         FALSE  hm2_de0n.0.7i76.0.0.input-31-n		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-00 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-01 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-02 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-03 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-04 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-05 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-06 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-07 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-08 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-09 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-10 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-11 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-12 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-13 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-14 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.output-15 		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.spindir   		0
+    74        bit   IN          FALSE  hm2_de0n.0.7i76.0.0.spinena   		0
+    74        float IN              0  hm2_de0n.0.7i76.0.0.spinout   	0.000010
+    74        float IN            100  hm2_de0n.0.dpll.01.timer-us   	0.000010
+    74        float IN            100  hm2_de0n.0.dpll.02.timer-us   	0.000010
+    74        float IN            100  hm2_de0n.0.dpll.03.timer-us   	0.000010
+    74        float IN            100  hm2_de0n.0.dpll.04.timer-us   	0.000010
+    74        float IN             -1  hm2_de0n.0.dpll.base-freq-khz 	0.000010
+    74        u32   OUT    0x00000000  hm2_de0n.0.dpll.ddsize        		0
+    74        float OUT             0  hm2_de0n.0.dpll.phase-error-us	0.000010
+    74        u32   IN     0x00400000  hm2_de0n.0.dpll.plimit        		0
+    74        u32   OUT    0x00000001  hm2_de0n.0.dpll.prescale      		0
+    74        u32   IN     0x0000A000  hm2_de0n.0.dpll.time-const    		0
+    74        s32   OUT             0  hm2_de0n.0.encoder.00.count   		0
+    74        s32   OUT             0  hm2_de0n.0.encoder.00.count-la		0
+    74        bit   I/O         FALSE  hm2_de0n.0.encoder.00.index-en		0
+    74        bit   OUT         FALSE  hm2_de0n.0.encoder.00.input-a 		0
+    74        bit   OUT         FALSE  hm2_de0n.0.encoder.00.input-b 		0
+    74        bit   OUT          TRUE  hm2_de0n.0.encoder.00.input-in		0
+    74        bit   IN          FALSE  hm2_de0n.0.encoder.00.latch-en		0
+    74        bit   IN          FALSE  hm2_de0n.0.encoder.00.latch-po		0
+    74        float OUT             0  hm2_de0n.0.encoder.00.position	0.000010
+    74        float OUT             0  hm2_de0n.0.encoder.00.position	0.000010
+    74        bit   OUT         FALSE  hm2_de0n.0.encoder.00.quad-err		0
+    74        bit   IN          FALSE  hm2_de0n.0.encoder.00.quad-err		0
+    74        s32   OUT             0  hm2_de0n.0.encoder.00.rawcount		0
+    74        s32   OUT             0  hm2_de0n.0.encoder.00.rawlatch		0
+    74        bit   IN          FALSE  hm2_de0n.0.encoder.00.reset   		0
+    74        float OUT             0  hm2_de0n.0.encoder.00.velocity	0.000010
+    74        u32   IN     0x007F2815  hm2_de0n.0.encoder.muxed-sampl		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.000.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.000.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.001.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.001.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.002.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.002.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.002.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.003.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.003.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.003.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.004.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.004.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.004.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.005.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.005.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.005.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.006.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.006.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.006.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.007.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.007.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.007.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.008.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.008.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.008.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.009.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.009.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.009.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.010.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.010.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.011.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.011.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.012.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.012.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.012.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.013.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.013.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.013.out       		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.014.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.014.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.015.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.015.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.016.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.016.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.017.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.017.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.017.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.018.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.018.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.018.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.019.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.019.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.019.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.020.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.020.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.020.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.021.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.021.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.021.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.022.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.022.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.022.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.023.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.023.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.023.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.024.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.024.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.024.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.025.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.025.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.025.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.026.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.026.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.026.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.027.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.027.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.028.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.028.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.028.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.029.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.029.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.029.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.030.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.030.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.030.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.031.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.031.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.031.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.032.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.032.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.032.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.033.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.033.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.033.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.034.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.034.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.035.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.035.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.036.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.036.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.037.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.037.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.038.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.038.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.039.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.039.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.040.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.040.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.041.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.041.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.042.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.042.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.042.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.043.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.043.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.043.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.044.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.044.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.044.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.045.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.045.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.045.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.046.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.046.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.046.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.047.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.047.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.047.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.048.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.048.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.048.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.049.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.049.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.049.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.050.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.050.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.050.out       		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.051.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.051.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.052.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.052.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.053.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.053.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.054.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.054.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.055.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.055.in_not    		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.056.in        		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.056.in_not    		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.057.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.057.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.057.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.058.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.058.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.058.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.059.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.059.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.059.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.060.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.060.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.060.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.061.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.061.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.061.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.062.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.062.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.062.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.063.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.063.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.063.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.064.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.064.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.064.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.065.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.065.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.065.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.066.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.066.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.066.out       		0
+    74        bit   OUT          TRUE  hm2_de0n.0.gpio.067.in        		0
+    74        bit   OUT         FALSE  hm2_de0n.0.gpio.067.in_not    		0
+    74        bit   IN          FALSE  hm2_de0n.0.gpio.067.out       		0
+    74        bit   IN          FALSE  hm2_de0n.0.led.CR01           		0
+    74        bit   IN          FALSE  hm2_de0n.0.led.CR02           		0
+    74        bit   IN          FALSE  hm2_de0n.0.led.CR03           		0
+    74        bit   IN          FALSE  hm2_de0n.0.led.CR04           		0
+    74        s32   OUT             0  hm2_de0n.0.pet_watchdog.time  		0
+    74        bit   IN          FALSE  hm2_de0n.0.pwmgen.00.enable   		0
+    74        float IN              0  hm2_de0n.0.pwmgen.00.value    	0.000010
+    74        bit   IN          FALSE  hm2_de0n.0.pwmgen.01.enable   		0
+    74        float IN              0  hm2_de0n.0.pwmgen.01.value    	0.000010
+    74        s32   OUT             0  hm2_de0n.0.read.time          		0
+    74        s32   OUT             0  hm2_de0n.0.read_gpio.time     		0
+    74        u32   OUT    0x00000000  hm2_de0n.0.sserial.port-0.faul		0
+    74        u32   OUT    0x00000000  hm2_de0n.0.sserial.port-0.port		0
+    74        bit   IN           TRUE  hm2_de0n.0.sserial.port-0.run 		0
+    74        bit   IN          FALSE  hm2_de0n.0.stepgen.00.control-		0
+    74        s32   OUT             0  hm2_de0n.0.stepgen.00.counts  		0
+    74        float OUT             0  hm2_de0n.0.stepgen.00.dbg_err_	0.000010
+    74        float OUT             0  hm2_de0n.0.stepgen.00.dbg_ff_v	0.000010
+    74        float OUT             0  hm2_de0n.0.stepgen.00.dbg_pos_	0.000010
+    74        float OUT             0  hm2_de0n.0.stepgen.00.dbg_s_to	0.000010
+    74        s32   OUT             0  hm2_de0n.0.stepgen.00.dbg_step		0
+    74        float OUT             0  hm2_de0n.0.stepgen.00.dbg_vel_	0.000010
+    74        bit   IN          FALSE  hm2_de0n.0.stepgen.00.enable  		0
+    74        float IN              0  hm2_de0n.0.stepgen.00.position	0.000010
+    74        float OUT             0  hm2_de0n.0.stepgen.00.position	0.000010
+    74        float IN              0  hm2_de0n.0.stepgen.00.velocity	0.000010
+    74        float OUT             0  hm2_de0n.0.stepgen.00.velocity	0.000010
+    74        s32   IN             -1  hm2_de0n.0.stepgen.timer-numbe		0
+    74        bit   I/O         FALSE  hm2_de0n.0.watchdog.has_bit   		0
+    74        s32   OUT             0  hm2_de0n.0.write.time         		0
+    74        s32   OUT             0  hm2_de0n.0.write_gpio.time    		0
