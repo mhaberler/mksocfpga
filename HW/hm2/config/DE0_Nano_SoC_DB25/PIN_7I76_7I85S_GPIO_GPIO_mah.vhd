@@ -82,7 +82,7 @@ package PIN_7I76_7I85S_GPIO_GPIO_mah is
         (LEDTag,            x"00",  ClockLowTag,    x"01",  LEDAddr&PadT,               LEDNumRegs,             x"00",  LEDMPBitMask),
         (FWIDTag,           x"00",  ClockLowTag,    x"01",  FWIDAddr&PadT,              FWIDNumRegs,            x"00",  FWIDMPBitMask),
         (PWMTag,            x"00",  ClockLowTag,    x"02",  PWMValAddr&PadT,		PWMNumRegs,		x"00",	PWMMPBitMask),
-        (TPPWMTag,          x"00",  ClockLowTag,    x"02",  TPPWMValAddr&PadT,		TPPWMNumRegs,		x"00",	TPPWMMPBitMask),
+        (TPPWMTag,          x"00",  ClockHighTag,   x"02",  TPPWMValAddr&PadT,		TPPWMNumRegs,		x"00",	TPPWMMPBitMask),
         (NullTag,           x"00",  NullTag,        x"00",  NullAddr&PadT,              x"00",                  x"00",  x"00000000"),
         (NullTag,           x"00",  NullTag,        x"00",  NullAddr&PadT,              x"00",                  x"00",  x"00000000"),
         (NullTag,           x"00",  NullTag,        x"00",  NullAddr&PadT,              x"00",                  x"00",  x"00000000"),
