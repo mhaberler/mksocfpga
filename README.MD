@@ -24,8 +24,10 @@ build docker images from https://github.com/dkhughes/vivado-docker.
 
 ## Debian packages
 
-repo: `http://deb.machinekit.io/debian jessie main``
-CycloneV: `apt install socfpga-rbf` 
+repo: `http://deb.machinekit.io/debian jessie main`
+
+CycloneV: `apt install socfpga-rbf`
+
 Zynq: `apt install socfpga-rbf`
 
 Quartus: build [![Quartus Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)
