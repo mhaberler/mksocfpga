@@ -9,17 +9,20 @@ packaging: [![Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=m
 
 # Building for CycloneV platforms:
 
- # see https://github.com/cdsteinkuehler/QuartusBuildVMs
- docker pull cdsteinkuehler/jessie-quartus-15.1.2
+````
+# see https://github.com/cdsteinkuehler/QuartusBuildVMs
+docker pull cdsteinkuehler/jessie-quartus-15.1.2
 
- git clone https://github.com/machinekit/mksocfpga.git/
- cd mksocfpga
- docker run -itv $(pwd):/work cdsteinkuehler/jessie-quartus-15.1.2 /work/build.quartus.sh
+git clone https://github.com/machinekit/mksocfpga.git/
+cd mksocfpga
+docker run -itv $(pwd):/work cdsteinkuehler/jessie-quartus-15.1.2 /work/build.quartus.sh
+````
 
 # Building for Zynq platforms:
 
 build docker images from https://github.com/dkhughes/vivado-docker.
 
-
+````
  docker run -itv $(pwd):/work <maintainer>/jessie-vivado-2015.4 /work/build.vivado.sh
+````
 
