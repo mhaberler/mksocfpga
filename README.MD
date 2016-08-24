@@ -4,7 +4,7 @@ packaging [![Debian Packaging Status](https://jenkins.machinekit.io/buildStatus/
 Vivado: build [![Vivado Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-vivado)](https://jenkins.machinekit.io/job/mksocfpga-vivado)
 packaging: [![Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-vivado)](https://jenkins.machinekit.io/job/mksocfpga-packaging-vivado)
 
-# Mesanet.com firmware for the CycloneV and Zynq SoC/FPGA platforms
+# Mesanet.com firmware for the CycloneV and Zynq
 
 
 # Building for CycloneV platforms:
