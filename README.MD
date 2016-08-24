@@ -1,10 +1,8 @@
-Quartus Build: [![Quartus Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)
+Quartus: build [![Quartus Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)
+packaging [![Debian Packaging Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-quartus)](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-quartus)
 
-Vivado Build: [![Vivado Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-vivado)](https://jenkins.machinekit.io/job/mksocfpga-vivado)
-
-Quartus Packaging: [![Debian Packaging Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-quartus)](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-quartus)
-
-Vivado Packaging: [![Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-vivado)](https://jenkins.machinekit.io/job/mksocfpga-packaging-vivado)
+Vivado: build [![Vivado Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-vivado)](https://jenkins.machinekit.io/job/mksocfpga-vivado)
+packaging: [![Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-vivado)](https://jenkins.machinekit.io/job/mksocfpga-packaging-vivado)
 
 # Mesanet.com firmware for the CycloneV and Zynq SoC/FPGA platforms
 
