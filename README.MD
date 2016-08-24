@@ -6,6 +6,7 @@ packaging: [![Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=m
 
 # Mesanet.com firmware for the CycloneV and Zynq
 
+hostmot2 firmware for Altera and Xilinx SoC/FPGA platforms, works with the Machinekit [hm2_soc_ol driver](http://www.machinekit.io/docs/man/man9/hm2_soc_ol/).
 
 # Building for CycloneV platforms:
 
