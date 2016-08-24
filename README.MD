@@ -1,15 +1,15 @@
-Quartus Build Status: [![Quartus Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)
+Quartus Build: [![Quartus Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-quartus)
 
-Vivado Build status: [![Vivado Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-vivado)](https://jenkins.machinekit.io/job/mksocfpga-vivado)
+Vivado Build: [![Vivado Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-vivado)](https://jenkins.machinekit.io/job/mksocfpga-vivado)
 
-Quartus Debian Packaging Status: [![Debian Packaging Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-quartus)](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-quartus)
+Quartus Packaging: [![Debian Packaging Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-quartus)](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-quartus)
 
-Vivado Debian Packaging Status: [![Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-vivado)](https://jenkins.machinekit.io/job/mksocfpga-packaging-vivado)
+Vivado Packaging: [![Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=mksocfpga-packaging-vivado)](https://jenkins.machinekit.io/job/mksocfpga-packaging-vivado)
 
-Mesanet.com firmware for the CycloneV and Zynq SoC/FPGA platforms
+# Mesanet.com firmware for the CycloneV and Zynq SoC/FPGA platforms
 
 
-Building for CycloneV platforms:
+# Building for CycloneV platforms:
 
  # see https://github.com/cdsteinkuehler/QuartusBuildVMs
  docker pull cdsteinkuehler/jessie-quartus-15.1.2
@@ -18,7 +18,7 @@ Building for CycloneV platforms:
  cd mksocfpga
  docker run -itv $(pwd):/work cdsteinkuehler/jessie-quartus-15.1.2 /work/build.quartus.sh
 
-Building for Zynq platforms:
+# Building for Zynq platforms:
 
 build docker images from https://github.com/dkhughes/vivado-docker.
 
