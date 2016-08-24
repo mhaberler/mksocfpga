@@ -8,7 +8,7 @@ packaging: [![Build Status](https://jenkins.machinekit.io/buildStatus/icon?job=m
 
 hostmot2 firmware for Altera and Xilinx SoC/FPGA platforms, works with the Machinekit [hm2_soc_ol driver](http://www.machinekit.io/docs/man/man9/hm2_soc_ol/).
 
-# Building for CycloneV platforms:
+## Building for CycloneV platforms:
 
 ````
 # see https://github.com/cdsteinkuehler/QuartusBuildVMs
@@ -19,7 +19,7 @@ cd mksocfpga
 docker run -itv $(pwd):/work cdsteinkuehler/jessie-quartus-15.1.2 /work/build.quartus.sh
 ````
 
-# Building for Zynq platforms:
+## Building for Zynq platforms:
 
 build docker images from https://github.com/dkhughes/vivado-docker.
 
