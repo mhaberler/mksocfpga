@@ -106,7 +106,6 @@ proc create_root_design { parentCell } {
   # Create ports
   set IOBits [ create_bd_port -dir IO -from 63 -to 0 IOBits ]
   set LED [ create_bd_port -dir O -from 2 -to 0 LED ]
-  set RATES [ create_bd_port -dir O -from 4 -to 0 RATES ]
 
   # Create instance: HostMot2_ip_wrap_0, and set properties
   set HostMot2_ip_wrap_0 [ create_bd_cell -type ip -vlnv machinekit.io:user:HostMot2_ip_wrap:1.0 HostMot2_ip_wrap_0 ]
@@ -227,7 +226,6 @@ CONFIG.NUM_PORTS {1} \
   connect_bd_net -net HostMot2_ip_wrap_0_leds [get_bd_ports LED] [get_bd_pins HostMot2_ip_wrap_0/leds]
   connect_bd_net -net HostMot2_ip_wrap_0_obus [get_bd_pins HostMot2_ip_wrap_0/obus] [get_bd_pins hm2_axilite_int_0/OBUS]
   connect_bd_net -net HostMot2_ip_wrap_0_outbits [get_bd_pins HostMot2_ip_wrap_0/outbits] [get_bd_pins hm2_io_ts_0/o_bits]
-  connect_bd_net -net HostMot2_ip_wrap_0_rates [get_bd_ports RATES] [get_bd_pins HostMot2_ip_wrap_0/rates]
   connect_bd_net -net Net [get_bd_ports IOBits] [get_bd_pins hm2_io_ts_0/iobits]
   connect_bd_net -net hm2_axilite_int_0_ADDR [get_bd_pins HostMot2_ip_wrap_0/addr] [get_bd_pins hm2_axilite_int_0/ADDR]
   connect_bd_net -net hm2_axilite_int_0_IBUS [get_bd_pins HostMot2_ip_wrap_0/ibus] [get_bd_pins hm2_axilite_int_0/IBUS]
@@ -250,7 +248,6 @@ CONFIG.NUM_PORTS {1} \
 #  -string -flagsOSRD
 preplace port DDR -pg 1 -y 570 -defaultsOSRD
 preplace port FIXED_IO -pg 1 -y 590 -defaultsOSRD
-preplace portBus RATES -pg 1 -y 670 -defaultsOSRD
 preplace portBus IOBits -pg 1 -y 170 -defaultsOSRD
 preplace portBus LED -pg 1 -y 230 -defaultsOSRD
 preplace inst rst_processing_system7_0_100M -pg 1 -lvl 3 -y 420 -defaultsOSRD
@@ -263,18 +260,17 @@ preplace inst processing_system7_0 -pg 1 -lvl 3 -y 660 -defaultsOSRD
 preplace netloc processing_system7_0_axi_periph_M00_AXI 1 4 1 N
 preplace netloc HostMot2_ip_wrap_0_interrupt 1 1 1 NJ
 preplace netloc processing_system7_0_M_AXI_GP0 1 3 1 970
-preplace netloc HostMot2_ip_wrap_0_rates 1 1 5 NJ 210 NJ 210 NJ 210 NJ 240 1610
 preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 2 530 330 930
 preplace netloc hm2_io_ts_0_i_bits 1 0 6 80 290 NJ 290 NJ 290 NJ 290 NJ 290 1600
 preplace netloc HostMot2_ip_wrap_0_ioddrbits 1 1 4 NJ 140 NJ 140 NJ 140 N
 preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 3 2 1000 560 NJ
-preplace netloc HostMot2_ip_wrap_0_outbits 1 1 4 NJ 150 NJ 150 NJ 150 1320
+preplace netloc HostMot2_ip_wrap_0_outbits 1 1 4 NJ 150 NJ 150 NJ 150 1300
 preplace netloc xlconcat_0_dout 1 2 1 510
 preplace netloc hm2_axilite_int_0_WRITESTB 1 0 6 30 520 NJ 520 NJ 520 NJ 590 NJ 590 1560
 preplace netloc hm2_axilite_int_0_READSTB 1 0 6 50 310 NJ 310 NJ 310 NJ 310 NJ 310 1580
-preplace netloc HostMot2_ip_wrap_0_obus 1 1 4 NJ 40 NJ 40 NJ 40 1310
-preplace netloc HostMot2_ip_wrap_0_leds 1 1 5 NJ 230 NJ 230 NJ 230 NJ 230 NJ
+preplace netloc HostMot2_ip_wrap_0_obus 1 1 4 NJ 40 NJ 40 NJ 40 1320
 preplace netloc hm2_axilite_int_0_IBUS 1 0 6 40 280 NJ 280 NJ 280 NJ 280 NJ 280 1590
+preplace netloc HostMot2_ip_wrap_0_leds 1 1 5 NJ 230 NJ 230 NJ 230 NJ 230 NJ
 preplace netloc processing_system7_1_DDR 1 3 3 NJ 570 NJ 560 NJ
 preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 3 1 980
 preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 60 380 NJ 380 520 800 990 610 1310
