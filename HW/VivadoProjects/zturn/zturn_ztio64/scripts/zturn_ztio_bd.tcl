@@ -110,10 +110,10 @@ proc create_root_design { parentCell } {
   # Create instance: HostMot2_ip_wrap_0, and set properties
   set HostMot2_ip_wrap_0 [ create_bd_cell -type ip -vlnv machinekit.io:user:HostMot2_ip_wrap:1.0 HostMot2_ip_wrap_0 ]
   set_property -dict [ list \
-CONFIG.IOPorts {4} \
+CONFIG.IOPorts {2} \
 CONFIG.IOWidth {64} \
 CONFIG.LEDCount {3} \
-CONFIG.PortWidth {16} \
+CONFIG.PortWidth {32} \
  ] $HostMot2_ip_wrap_0
 
   # Create instance: hm2_axilite_int_0, and set properties
